@@ -4,9 +4,16 @@
 
 #include <iostream>
 
+
+void printMessage(){
+    std::cout << "Welcome to the game!" << std::endl;
+    
+}
 int main(){
     std::cout << "Hi There!" << std::endl;
 
     std::cout << std::endl << std::endl;
+    printMessage();
     return 0;
+
 }
